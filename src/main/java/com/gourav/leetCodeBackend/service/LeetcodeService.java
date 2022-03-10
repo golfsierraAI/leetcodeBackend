@@ -7,8 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@CrossOrigin
 public interface LeetcodeService {
-    @GetMapping("/")
+    @GetMapping("/get")
     List<?> getDataService();
 }
