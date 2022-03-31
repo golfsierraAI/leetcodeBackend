@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@CrossOrigin("http://leetcodepatterns.herokuapp.com/")
+@CrossOrigin("https://leetcodepatterns.herokuapp.com/")
 public interface LeetcodeService {
     @GetMapping("/get")
     List<?> getDataService();
